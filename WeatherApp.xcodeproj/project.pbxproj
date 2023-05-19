@@ -28,6 +28,7 @@
 		CB4F44312A175AAD0016E74E /* HourlyForecastScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4F44302A175AAD0016E74E /* HourlyForecastScrollView.swift */; };
 		CB4F44332A17644F0016E74E /* AnimatedBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4F44322A17644F0016E74E /* AnimatedBackgroundView.swift */; };
 		CB4F44362A17FD5F0016E74E /* LocationCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4F44352A17FD5F0016E74E /* LocationCellViewModel.swift */; };
+		CB4F44372A181FA70016E74E /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBABA1052A12DF3E0004D426 /* SearchBarView.swift */; };
 		CBABA0BF2A12C3680004D426 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBABA0BE2A12C3680004D426 /* AppDelegate.swift */; };
 		CBABA0C12A12C3680004D426 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBABA0C02A12C3680004D426 /* SceneDelegate.swift */; };
 		CBABA0C62A12C3680004D426 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBABA0C42A12C3680004D426 /* Main.storyboard */; };
@@ -41,7 +42,6 @@
 		CBABA1002A12CC980004D426 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBABA0FF2A12CC980004D426 /* HTTPClient.swift */; };
 		CBABA1022A12D08F0004D426 /* WeatherServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBABA1012A12D08F0004D426 /* WeatherServices.swift */; };
 		CBABA1042A12D9F50004D426 /* WeatherSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBABA1032A12D9F50004D426 /* WeatherSearchViewModel.swift */; };
-		CBABA1062A12DF3E0004D426 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBABA1052A12DF3E0004D426 /* SearchBarView.swift */; };
 		CBABA1082A12E0390004D426 /* UIColorExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBABA1072A12E0390004D426 /* UIColorExt.swift */; };
 		CBABA10A2A12F3740004D426 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBABA1092A12F3740004D426 /* Location.swift */; };
 		CBABA10C2A130C0F0004D426 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBABA10B2A130C0F0004D426 /* Weather.swift */; };
@@ -372,7 +372,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBABA1062A12DF3E0004D426 /* SearchBarView.swift in Sources */,
 				CBABA10E2A13F91B0004D426 /* LocationCell.swift in Sources */,
 				CBABA0F52A12C7620004D426 /* WeatherSearchCoordinator.swift in Sources */,
 				CBABA0F12A12C43B0004D426 /* Coordinator.swift in Sources */,
@@ -383,6 +382,7 @@
 				CB4F44252A1746AD0016E74E /* ErrorView.swift in Sources */,
 				CBABA1042A12D9F50004D426 /* WeatherSearchViewModel.swift in Sources */,
 				CB4F44192A16B4D50016E74E /* APIKeys.swift in Sources */,
+				CB4F44372A181FA70016E74E /* SearchBarView.swift in Sources */,
 				CBABA0F32A12C5560004D426 /* AppCoordinator.swift in Sources */,
 				CB4F44172A16158C0016E74E /* LocationManager.swift in Sources */,
 				CB4F442D2A1758FE0016E74E /* WeatherStatsScrollView.swift in Sources */,
