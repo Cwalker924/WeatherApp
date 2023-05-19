@@ -3,6 +3,9 @@ Take home project
 
 This project is a weather app that uses a geocoded endpoint to fetches locations and fetches its associated weather with another API call. The app also caches the selected locations. I decided not to cache the weather since we’ll prob want the most up-to-date weather.
 
+| Weather App |
+|-|
+| ![Screen Recording 2023-05-19 at 04 48 53 PM](https://github.com/Cwalker924/WeatherApp/assets/20428058/d532beff-79ae-44f4-9ac8-1d5a08960732) |
 
 # 🤷🏾‍♂️ Why MVVM+C?
 MVVM is battle tested architecture that has clear separation of data from API -> UI and suits this project.
